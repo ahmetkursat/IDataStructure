@@ -19,9 +19,13 @@
 
         public bool Cinsiyet { get; set; }
 
+        //method ezmek
+        public override string ToString()
+        {
+            return $"{Numara,-5}" + $"{Adi,-10}" + $"{Soyadi,-10}" + string.Format("{0,5}", Cinsiyet == true ? "Bay" : "Bayan");
+        }
+
+
     }
-    //method override
-
     
-
 }
