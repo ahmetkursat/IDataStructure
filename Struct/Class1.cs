@@ -16,27 +16,27 @@ namespace Struct
         {
             //Normal Kullanım
 
-            //Ogrencı ogrencı = new Ogrencı();
-            //ogrencı.Numara = 10;
-            //ogrencı.Adi = "Ahmet";
-            //ogrencı.Soyadi = string.Empty;
-            //ogrencı.Cinsiyet = true;
+            Ogrencı ogrencı = new Ogrencı();
+            ogrencı.Numara = 10;
+            ogrencı.Adi = "Ahmet";
+            ogrencı.Soyadi = string.Empty;
+            ogrencı.Cinsiyet = true;
 
-            //Console.WriteLine($"{ogrencı.Numara}+{ogrencı.Adi}+{ogrencı.Cinsiyet}");
+            Console.WriteLine($"{ogrencı.Numara}+{ogrencı.Adi}+{ogrencı.Cinsiyet}");
 
             //Alternatif Kullanım
 
-            //var ogr2 = new Ogrencı()
-            //{
-            //    Numara = 20,
-            //    Adi = string.Empty,
-            //    Soyadi = string.Empty,
-            //    Cinsiyet = true
+            var ogr2 = new Ogrencı()
+            {
+                Numara = 20,
+                Adi = string.Empty,
+                Soyadi = string.Empty,
+                Cinsiyet = true
 
-            //};
-            //2 alternatif kullanım 
-            //Console.WriteLine(ogr2);
-            //Console.WriteLine($"{ogr4.Numara}+{ogr4.Adi}+{ogr4.Cinsiyet}");
+            };
+            //2 alternatif kullanım
+            Console.WriteLine(ogr2);
+            Console.WriteLine($"{ogr4.Numara}+{ogr4.Adi}+{ogr4.Cinsiyet}");
 
             var ogrenciListesi = new List<Ogrencı>(){
                 new Ogrencı(50,"seyit","makarna",true),

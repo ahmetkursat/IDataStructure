@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Belgeler\\GitHub\\DataStructures\\HashTable\\HashTable.csproj",
-      "projectName": "HashTable",
-      "projectPath": "C:\\Users\\ahmet\\OneDrive\\Belgeler\\GitHub\\DataStructures\\HashTable\\HashTable.csproj",
+      "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Belgeler\\GitHub\\DataStructures\\HashTable\\HashTableUygulama.csproj",
+      "projectName": "HashTableUygulama",
+      "projectPath": "C:\\Users\\ahmet\\OneDrive\\Belgeler\\GitHub\\DataStructures\\HashTable\\HashTableUygulama.csproj",
       "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ahmet\\OneDrive\\Belgeler\\GitHub\\DataStructures\\HashTable\\obj\\",
       "projectStyle": "PackageReference",
